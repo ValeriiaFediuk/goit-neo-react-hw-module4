@@ -1,21 +1,22 @@
 .container {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  .button {
-    padding: 10px 20px;
-    background-color: #3f51b5;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-  }
-  
-  .button:hover {
-    background-color: #303f9f;
-  }
-  
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 12px 24px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #303f9f;
+}
